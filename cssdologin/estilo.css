@@ -1,0 +1,56 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte legível */
+    background-color: #f0f0f0; /* Define uma cor de fundo suave */
+    display: flex; /* Permite centralizar o formulário */
+    justify-content: center; /* Centraliza o formulário horizontalmente */
+    align-items: center; /* Centraliza o formulário verticalmente */
+    height: 100vh; /* A página ocupa toda a altura da janela */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff; /* Fundo branco para destaque */
+    padding: 20px; /* Espaço interno ao redor dos elementos */
+    border: 1px solid #ddd; /* Borda leve para destacar o contêiner */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    width: 300px; /* Largura fixa do formulário */
+}
+
+/* Estilo dos rótulos (label) */
+label {
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+    display: block; /* Garante que cada rótulo fique em uma linha separada */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo dos campos de entrada (input) */
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Largura total para preencher o contêiner */
+    padding: 10px; /* Espaço interno nos campos */
+    margin-bottom: 15px; /* Espaçamento abaixo dos campos */
+    border: 1px solid #ccc; /* Borda fina e de cor neutra */
+    border-radius: 3px; /* Borda levemente arredondada */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Estilo dos botões */
+button {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaço interno */
+    background-color: #4CAF50; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 3px; /* Borda levemente arredondada */
+    cursor: pointer; /* Cursor de clique */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 10px; /* Espaço entre os botões */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #45a049; /* Muda levemente a cor de fundo */
+}

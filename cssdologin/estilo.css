@@ -16,6 +16,7 @@ form {
     border: 1px solid #ddd; /* Borda leve para destacar o contêiner */
     border-radius: 5px; /* Bordas levemente arredondadas */
     width: 300px; /* Largura fixa do formulário */
+    box-sizing: border-box; /* Inclui padding na largura total */
 }
 
 /* Estilo dos rótulos (label) */
@@ -52,5 +53,5 @@ button {
 
 /* Efeito ao passar o mouse sobre o botão */
 button:hover {
-    background-color: #45a049; /* Muda levemente a cor de fundo */
+    background-color: #a05345; /* Muda levemente a cor de fundo */
 }

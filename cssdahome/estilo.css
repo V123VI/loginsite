@@ -1,0 +1,32 @@
+/* CSS atualizado */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Cor de fundo suave */
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+#bemvindo {
+    color: #333; /* Cor de texto mais escura para contraste */
+    font-weight: 700; /* Peso da fonte mais grosso */
+    font-size: 2em; /* Tamanho de fonte maior */
+    margin: 0;
+    padding: 10px;
+}
+
+#lugarusuario {
+    color: #007acc; /* Cor diferente para o nome do usuário */
+}

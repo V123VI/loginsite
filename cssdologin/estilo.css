@@ -55,3 +55,7 @@ button {
 button:hover {
     background-color: #a05345; /* Muda levemente a cor de fundo */
 }
+
+#dropdowcada:hover{
+    background-color: #4CAF50;
+}

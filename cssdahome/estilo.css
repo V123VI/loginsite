@@ -41,5 +41,21 @@ body {
 }
 
 #botaocalculadora:hover {
-    background-color: #005f99; /* Cor de fundo ao passar o mouse */
+
+    background-color: red; /* Cor de fundo ao passar o mouse */
 }
+#botaosites{
+    padding: 12px 28px;
+    background-color: #007acc; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Indicador de botão clicável */
+    transition: background-color 0.3s ease; /* Animação de hover */
+}
+
+#botaosites:hover{
+
+    background-color: red;
+}
+
